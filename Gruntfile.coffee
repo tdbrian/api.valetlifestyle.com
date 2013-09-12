@@ -13,7 +13,7 @@ module.exports = (grunt) ->
         options:
           disableModuleWrap: ['platform/nodejs_init.js', 'platform/nodejs_export.js']
         files: [
-          {src: ['app/**/*.coffee'], dest: 'app/api.js'}
+          {src: ['app/**/*.coffee'], dest: 'app/vlapi.js'}
         ]
 
     notify:
